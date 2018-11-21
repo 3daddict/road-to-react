@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     const hellowWorld = 'Welcome to the Road to Learn React';
     let person = {
-      firstName: 'Mike',
+      firstName: 'Michael',
       lastName: 'Salvati'
     }
     return (
