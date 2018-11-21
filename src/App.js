@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Bind from './components/bindExampleBtn';
 import './App.css';
 
 const list = [
@@ -57,6 +58,7 @@ class App extends Component {
 					</span>
 				</div>
 		  )}
+		  <Bind />
       </div>
     );
   }
