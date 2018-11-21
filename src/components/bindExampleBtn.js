@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 
 class ExplainBindingsComponent extends Component {
-    constructor(props){
-        super(props);
 
-        this.onClickMe = this.onClickMe.bind(this);
-    }
-    onClickMe(){
+    onClickMe = () => {
         console.log(this);
     }
 
